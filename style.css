@@ -1,0 +1,141 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+    margin-bottom: -25px;
+    padding: 0px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: white;
+    font-weight: 800;
+    padding: 5px 20px;
+    border-color: #3882f6;
+    margin-top: -20px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    border-bottom: 5px solid white;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.first {
+    display: flex;
+    background-color: #1F2937;
+    padding: 30px 0px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.first section {
+    max-width: 32vw;
+}
+
+.first p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.first div {
+   /*  max-width: 600px; */
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 60px;
+}
+
+.imgsdiv {
+    display: flex;
+    justify-content: center;
+
+}
+
+.imgsdiv p {
+    max-width: 180px;
+}
+
+.imgsdiv section {
+    text-align: center;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.third section {
+    max-width: 60vw;
+    margin: 50px auto;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+
+}
+
+.autor {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.fourth {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 40px auto;
+    background-color: #3882f6;
+    align-items: center;
+    border-radius: 5px;
+    border-color: #3882f6;
+}
+
+.signuptxt {
+    display: flex;
+    flex-direction: column;
+}
+
+.signupbutton {
+    border: 3px solid white;
+    padding: 4px 25px;
+    margin: 0px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+}
